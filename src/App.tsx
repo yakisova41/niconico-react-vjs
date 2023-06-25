@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NiconicoReactVjs } from "../niconico-react-vjs";
 import Comments from "../niconico-react-vjs/comments";
 import "../niconico-react-vjs/style.css";
+import React from "react";
 
 function App() {
   const defaultVideo = "sm42402256";
