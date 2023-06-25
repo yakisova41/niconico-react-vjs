@@ -1,0 +1,33 @@
+.niconico-react-vjs {
+  position: relative;
+}
+
+.niconico-react-vjs-layer-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: inline-block;
+}
+
+.niconico-react-vjs-layer-item-pointer {
+  pointer-events: all;
+}
+
+.niconico-react-vjs-comment {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.niconico-react-vjs-player {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.niconico-react-vjs-comment-hide {
+  display: none;
+}
