@@ -4,7 +4,7 @@ import Comments from "../niconico-react-vjs/comments";
 import "../niconico-react-vjs/style.css";
 
 function App() {
-  const defaultVideo = "sm34484275";
+  const defaultVideo = "sm42402256";
   const [videoId, setVideoId] = useState(defaultVideo);
   const [videoIdState, setVideoIdState] = useState("");
 

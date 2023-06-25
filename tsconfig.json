@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "niconico-react-vjs"],
+  "include": ["demo", "niconico-react-vjs"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
