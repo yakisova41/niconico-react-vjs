@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "node build.js",
-    "postbuild": "tsc --declaration --emitDeclarationOnly --declarationDir './dist/types/'",
+    "postbuild": "tsc --declaration --emitDeclarationOnly --declarationDir './dist'",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

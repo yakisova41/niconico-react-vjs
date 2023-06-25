@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import "./style.css";
+import "../style.css";
 export declare const NiconicoReactVjs: React.FunctionComponent<NiconicoReactVjsProps>;
 export default NiconicoReactVjs;
 export interface NiconicoReactVjsProps extends React.VideoHTMLAttributes<HTMLVideoElement> {
