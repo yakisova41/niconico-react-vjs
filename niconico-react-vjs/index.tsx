@@ -38,6 +38,8 @@ export const NiconicoReactVjs: React.FunctionComponent<
   );
 };
 
+export default NiconicoReactVjs;
+
 export interface NiconicoReactVjsProps
   extends React.VideoHTMLAttributes<HTMLVideoElement> {
   videoid: string;
