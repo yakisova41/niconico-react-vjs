@@ -18,7 +18,7 @@ export const Comments: React.FunctionComponent<{
 }> = ({ children, className, id }) => {
   const { initialWatchData } = useNico();
   const niconiComments = useRef<NiconiComments>();
-  const commentInterval = useRef<number>();
+  const commentInterval = useRef<NodeJS.Timer>();
   const vjsPlayer = useVideoJS();
   const [isCommentShow, setCommentShow] = useState(true);
 

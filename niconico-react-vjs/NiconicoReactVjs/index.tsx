@@ -1,7 +1,6 @@
 import React, { ReactNode } from "react";
 import { NicoSessionProvider, NicoDataContext } from "../nico-session-hooks";
 import ReactVideoJSPlayer from "../react-videojs-player";
-import "../style.css";
 
 export const NiconicoReactVjs: React.FunctionComponent<
   NiconicoReactVjsProps

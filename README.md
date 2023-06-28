@@ -19,10 +19,13 @@
 App.tsx
 
 ```tsx
-import { NiconicoReactVjs } from "niconico-react-vjs";
-import { NicoReactVjsLayerItem } from "niconico-react-vjs/NicoReactVjsLayerItem";
-import Comments from "niconico-react-vjs/comments";
-import "niconico-react-vjs/style.css";
+import {
+  Comments,
+  NicoReactVjsLayerItem,
+  NiconicoReactVjs,
+} from "niconico-react-vjs";
+import "niconico-react-vjs/dist/style.css";
+
 function App() {
   return (
     <NiconicoReactVjs
@@ -45,7 +48,7 @@ export default App;
 ## Comments
 
 ```ts
-import Comments from "niconico-react-vjs/comments";
+import { Comments } from "niconico-react-vjs";
 ```
 
 コメントを表示するコンポーネントです。
@@ -54,7 +57,7 @@ import Comments from "niconico-react-vjs/comments";
 ## useComment()
 
 ```tsx
-import { useComment } from "../niconico-react-vjs/comments";
+import { useComment } from "niconico-react-vjs";
 
 export function Example() {
   const comment = useComment();
@@ -79,6 +82,7 @@ export function Example() {
 ## useVideoJS
 
 ```tsx
+import { useVideoJS } from "niconico-react-vjs";
 const player = useVideoJS();
 ```
 

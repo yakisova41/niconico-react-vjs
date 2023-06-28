@@ -18,7 +18,7 @@ export const NicoSessionProvider: React.FunctionComponent<
   const [ready, setReady] = useState(false);
   const initialWatchData = useRef<InitialWatchDataType>();
   const session = useRef<SessionResponse>();
-  const heatBeat = useRef<number | null>(null);
+  const heatBeat = useRef<NodeJS.Timer | null>(null);
 
   useEffect(() => {
     setReady(false);

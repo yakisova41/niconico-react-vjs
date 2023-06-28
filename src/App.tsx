@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { NiconicoReactVjs } from "../niconico-react-vjs";
-import Comments from "../niconico-react-vjs/comments";
+import { NiconicoReactVjs, Comments } from "../dist";
 import "../niconico-react-vjs/style.css";
 import React from "react";
 
@@ -26,7 +25,7 @@ function App() {
         width={1280}
         height={720}
       >
-        <Comments></Comments>
+        <Comments />
       </NiconicoReactVjs>
 
       <input
