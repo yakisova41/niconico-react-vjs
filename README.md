@@ -2,6 +2,11 @@
 
 ニコニコ動画のプレイヤーを React で Videojs を使って再生するライブラリ
 
+## Install
+```sh
+npm install niconico-react-vjs
+```
+
 ## 注意点
 
 - ### 360p までしか再生できません
