@@ -1,5 +1,5 @@
 import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
-import { createContext, useState, useRef, useEffect, useContext } from 'react';
+import { createContext, useContext, useState, useRef, useEffect } from 'react';
 import videojs from 'video.js';
 import 'video.js/dist/video-js.min.css';
 import NiconiComments from '@xpadev-net/niconicomments';
@@ -274,4 +274,4 @@ const useComment = () => {
     return c;
 };
 
-export { Comments, NicoReactVjsLayerItem, NiconicoReactVjs, useComment, useVideoJS };
+export { CommentContext, Comments, NicoDataContext, NicoReactVjsLayerItem, NiconicoReactVjs, VideoJsPlayerCtx, useComment, useNico, useVideoJS };
